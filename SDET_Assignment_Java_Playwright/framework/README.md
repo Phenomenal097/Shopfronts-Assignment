@@ -23,3 +23,6 @@ mvn test
 - `tests/ui` - SauceDemo positive and negative UI tests.
 - `tests/api` - FakeStore API CRUD, auth, data-driven and contract tests.
 - `utils` - JSON contract validation helper.
+
+
+Made with love from SHANTANU JHA
