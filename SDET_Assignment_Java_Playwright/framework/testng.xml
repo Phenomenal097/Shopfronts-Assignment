@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SDET Assignment Java Playwright Suite" parallel="false">
+    <test name="SauceDemo UI Tests">
+        <classes>
+            <class name="com.company.sdet.tests.ui.SauceDemoPositiveTest"/>
+            <class name="com.company.sdet.tests.ui.SauceDemoNegativeTest"/>
+        </classes>
+    </test>
+    <test name="FakeStore API Tests">
+        <classes>
+            <class name="com.company.sdet.tests.api.FakeStoreCartCrudTest"/>
+            <class name="com.company.sdet.tests.api.FakeStoreAuthenticationTest"/>
+            <class name="com.company.sdet.tests.api.FakeStoreContractTest"/>
+        </classes>
+    </test>
+</suite>
